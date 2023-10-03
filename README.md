@@ -32,5 +32,5 @@ API REQUESTS :
   "city":"Pune"  \
 }  
 3.to get the percentage of each stage : POST http://localhost:8081/webhook/percentage/{eventName}  \
-  eventNames can be -  APP_ACCESS,BANNER_CLICK,VIEW_PRODUCTS,SELECT_PRODUCT,ADD_TO_CART,PLACE_ORDER  \
-4. to get the performances of cities : localhost:8081/webhook/performance/{city}  \
+  eventNames can be -  APP_ACCESS,BANNER_CLICK,VIEW_PRODUCTS,SELECT_PRODUCT,ADD_TO_CART,PLACE_ORDER  
+4. to get the performances of cities : localhost:8081/webhook/performance/{city}  
