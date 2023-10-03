@@ -23,14 +23,14 @@ MondoDB setup : at port 27017
 Server port : 8081
 
 API REQUESTS :
-1. to test the connection and response : GET http://localhost:8081/webhook/test
-2. to post the data in MongoDB : POST http://localhost:8081/webhook/events
-             {
-  "id":"abc125",
-  "userId":"003",
-  "eventName":"BANNER_CLICK",
-  "city":"Pune"
-}
-3.to get the percentage of each stage : POST http://localhost:8081/webhook/percentage/{eventName}
-  eventNames can be -  APP_ACCESS,BANNER_CLICK,VIEW_PRODUCTS,SELECT_PRODUCT,ADD_TO_CART,PLACE_ORDER
-4. to get the performances of cities : localhost:8081/webhook/performance/{city}
+1. to test the connection and response : GET http://localhost:8081/webhook/test \
+2. to post the data in MongoDB : POST http://localhost:8081/webhook/event \
+             {  \
+  "id":"abc125",  \
+  "userId":"003",  \
+  "eventName":"BANNER_CLICK",  \
+  "city":"Pune"  \
+}  \
+3.to get the percentage of each stage : POST http://localhost:8081/webhook/percentage/{eventName}  \
+  eventNames can be -  APP_ACCESS,BANNER_CLICK,VIEW_PRODUCTS,SELECT_PRODUCT,ADD_TO_CART,PLACE_ORDER  \
+4. to get the performances of cities : localhost:8081/webhook/performance/{city}  \
